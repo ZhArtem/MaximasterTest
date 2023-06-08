@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+}
+
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__select {
+    margin-bottom: 10px;
+}
+
+.form__input {
+    margin-bottom: 10px;
+}
+
+.form__button {
+    margin-bottom: 10px;
+    align-self: center;
+}

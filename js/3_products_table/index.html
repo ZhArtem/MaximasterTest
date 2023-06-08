@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица товаров</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <form action="" class="form">
+            <label class="form__label" for="priceFrom">Цена от:</label>
+            <input class="form__input" type="number" id="priceFrom" placeholder="0">
+            <label class="form__label" for="priceTo">до:</label>
+            <input class="form__input" type="number" id="priceTo" placeholder="10000">
+            <button class="form__button" type="button">Обновить</button>
+        </form>
+        <table class="table">
+            <thead class="table__head">
+                <tr>
+                    <th>ID</th>
+                    <th>Название</th>
+                    <th>Количество</th>
+                    <th>Цена за единицу</th>
+                    <th>Сумма</th>
+                </tr>
+            </thead>
+            <tbody class="table__body">
+            </tbody>
+        </table>
+        <p class="message"></p>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+}
+
+main {
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.records {
+
+    margin-bottom: 30px;
+}
+
+.record {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.record__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form__name {
+    margin-bottom: 15px;
+}
+
+.form__text {
+    align-self: stretch;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.form__button {
+    align-self: center;
+}
+
