@@ -67,7 +67,6 @@ const message = form.querySelector(".form__message");
 
 form.addEventListener("submit", function (event) {
     successText = "Заказ оформлен!";
-    event.preventDefault();
     let errorsText = checkValidation()
     if (errorsText) {
         event.preventDefault();
